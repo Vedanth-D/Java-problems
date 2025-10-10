@@ -10,8 +10,10 @@ public class Main {
         
         if(num1 > num2){
             System.out.println("Largest number is :" + num1);
-        }else{
+        }else if(num2 > num1){
             System.out.println("Largest number is :" + num2);
+        }else{
+            System.out.println("Both are equal");
         }
         scan.close();
     }
