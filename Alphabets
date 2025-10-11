@@ -1,0 +1,14 @@
+public class Main{
+    public static void main(String[] args) {
+        System.out.print("Lower case: ");
+        for(char ch = 'a';ch <= 'z';ch++){
+            System.out.print(ch + " ");
+        }
+        System.out.println();
+        
+        System.out.print("Upper case: ");
+        for(char ch = 'A';ch <= 'Z';ch++){
+            System.out.print(ch + " ");
+        }
+    }
+}
